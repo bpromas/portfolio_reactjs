@@ -5,7 +5,7 @@ import Project from "./Project.jsx";
 
 import tunicPic from "./assets/tunic-reader.png";
 import presidentesPic from "./assets/presidentes.png";
-import gtrrPic from "./assets/gtrr.png";
+// import gtrrPic from "./assets/gtrr.png";
 import jankenPic from "./assets/janken.png";
 import { useState } from "react";
 
@@ -52,24 +52,24 @@ function App() {
       img: tunicPic,
       imgAlt: "Tunic",
     },
-    {
-      key: 3,
-      name: "GTRR",
-      description: {
-        en: [
-          "React website for an independent translation collective.",
-          "I was approached by a web designer to undertake the development for this website. The design was creative and eye-catching and it's been a pleasant challenge to translate such beautiful design into maintainable CSS. This was also my first professional experience using React.",
-        ],
-        "pt-br": [
-          "Website em React para um coletivo de tradução independente",
-          "Fui contactado por um designer para desenvolver o seu design para este website. O design me chamou atenção por sua criatividade e estética e foi um desafio prazeroso traduzir um design belo para um CSS robusto. Esta também foi minha primeira experiência profissional utilizando o React.",
-        ],
-      },
-      gitUrl: "https://github.com/comunista-de-iphone/GTRR",
-      liveUrl: "https://gtrr.vercel.app/",
-      img: gtrrPic,
-      imgAlt: "GTRR",
-    },
+    // {
+    //   key: 3,
+    //   name: "GTRR",
+    //   description: {
+    //     en: [
+    //       "React website for an independent translation collective.",
+    //       "I was approached by a web designer to undertake the development for this website. The design was creative and eye-catching and it's been a pleasant challenge to translate such beautiful design into maintainable CSS. This was also my first professional experience using React.",
+    //     ],
+    //     "pt-br": [
+    //       "Website em React para um coletivo de tradução independente",
+    //       "Fui contactado por um designer para desenvolver o seu design para este website. O design me chamou atenção por sua criatividade e estética e foi um desafio prazeroso traduzir um design belo para um CSS robusto. Esta também foi minha primeira experiência profissional utilizando o React.",
+    //     ],
+    //   },
+    //   gitUrl: "https://github.com/comunista-de-iphone/GTRR",
+    //   liveUrl: "https://gtrr.vercel.app/",
+    //   img: gtrrPic,
+    //   imgAlt: "GTRR",
+    // },
     {
       key: 4,
       name: "Janken",
